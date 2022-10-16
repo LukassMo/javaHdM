@@ -9,6 +9,12 @@ public class Task2_Main_exercises {
 		e = (d && !c) || !a;
 		f = ((d == e) || (d != e)) == true;
 		g = 5 == 7;
+		
+		System.out.println(d); //false [d]
+		System.out.println(e); //false [e]
+		System.out.println(f); //true [f]	
+		System.out.println(g); //false [g]
+		
 	}
 
 }
