@@ -13,13 +13,13 @@ public class Statistics {
 		System.out.println(return_str);
 	}
 
-	static int getAvg(int[] a) {
-		int sum = 0;
+	static long getAvg(int[] a) {
+		long sum = 0;
 		for (int i = 0; i < a.length; i++) {
 			sum = sum + a[i];
 		}
 
-		int average = sum / a.length;
+		long average = sum / a.length;
 		return average;
 	}
 

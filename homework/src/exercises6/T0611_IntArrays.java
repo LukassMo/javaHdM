@@ -2,7 +2,7 @@ package exercises6;
 
 public class T0611_IntArrays {
 	public static void main(String[] args) {
-		SubQuestion_a(); //Enter e.g "SubQuestion_a, SubQuestion_b, SubQuestion_c..."
+		SubQuestion_m(); //Enter e.g "SubQuestion_a, SubQuestion_b, SubQuestion_c..."
 	}
 
 	// My Code for Sub Question A
@@ -27,14 +27,17 @@ public class T0611_IntArrays {
 
 	static void SubQuestion_d() {
 		int[] a = { 3, 6, 1, 2, 10, 32, 13, 89, 3, 2, 1, 4 };
+		int oldnum = a[1];
 		a[1] = a[6];
+		
+		a[6] = oldnum;
 		System.out.println(a[1]);
 	}
 
 	static void SubQuestion_e() {
 		int[] a = { 3, 6, 1, 2, 10, 32, 13, 89, 3, 2, 1, 4 };
 		a[0] = a[8] + a[9] + a[10]; // adds 3+2+1
-		System.out.println(a[1]);
+		System.out.println(a[0]);
 	}
 
 	static void SubQuestion_f() {

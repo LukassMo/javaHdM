@@ -2,7 +2,7 @@ package exercises6;
 
 public class T0612_StringArrays {
 	public static void main(String[] args) {
-		SubQuestion_a();	//Enter e.g "SubQuestion_a, SubQuestion_b, SubQuestion_c..."
+		SubQuestion_i();	//Enter e.g "SubQuestion_a, SubQuestion_b, SubQuestion_c..."
 	}
 
 	static void SubQuestion_a() {

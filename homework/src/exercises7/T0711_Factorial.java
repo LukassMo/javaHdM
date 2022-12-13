@@ -3,7 +3,7 @@ package exercises7;
 public class T0711_Factorial {
 	public static void main(String[] args) {
 		
-		System.out.println(factorial(10));
+		System.out.println(factorial(100));
 	}
 	
 	static long factorial(int input) {
