@@ -19,9 +19,10 @@ public class T1313_PDFerase {
 																											// directory.
 		PDDocument doc = PDDocument.load(file);
 		for (int x = 0; x < pagesToDelete.length; x++) {
-			doc.removePage(pagesToDelete[x] - x - 1); // The index value minus the index. For every deleted page it has to
-													// adjust accordingly.
-													//+1 to adjust for the index
+			doc.removePage(pagesToDelete[x] - x - 1); // The index value minus the index. For every deleted page it has
+														// to
+														// adjust accordingly.
+														// +1 to adjust for the index
 			System.out.println("Page " + pagesToDelete[x] + " has been deleted!");
 
 		}

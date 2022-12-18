@@ -10,6 +10,6 @@ class gui{
        frame.getContentPane().add(button); // Adds Button to content pane of frame
        frame.setVisible(true);
        
-       T1113_Read2.a.Component.print();
+       //T1113_Read2.a.Component.print();
     }
 }
