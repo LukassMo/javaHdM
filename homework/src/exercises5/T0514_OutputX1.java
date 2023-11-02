@@ -17,6 +17,4 @@ public class T0514_OutputX1 {
 			output = output + symbol;
 			System.out.println(output);
 		} */
-
-	}
 }
