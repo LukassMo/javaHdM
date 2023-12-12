@@ -1,0 +1,14 @@
+11 Input and output
+In general, every program in any respect has to read or write data. For example:
+-	Display on screen;
+-	User input via console or dialogs;
+-	Storing of data to fixed disk or permanent memory;
+-	Reading of data from fixed disk, permanent memory, CD, DVD, ...;
+-	Communication between different processes on the same computer or via network;
+
+The packet java.io contains different classes to read and write files. In doing so between the access to character data (text) and binary data has to be distinguished. E.g. PDF documents or image data are binary data, while HTML files contain text. The reason for this differentiation is the character coding standard Unicode resp. their coding UTF-8.
+
+Therefore, we distinguish 
+-	character oriented classes: Reader, Writer 
+-	byte-oriented classes: InputStream and OutputStream. 
+In the frame of these lectures we deal with the text based classes only.
