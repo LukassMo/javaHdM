@@ -13,26 +13,20 @@ public class T1112_Write2 {
 		b = "Hamburgers";
 		c = "Burritos";
 
-		FileWriter fw = new FileWriter("text.txt");
+		FileWriter fw = new FileWriter("text2.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
-		PrintWriter pw = new PrintWriter("newText.txt");
+		PrintWriter pw = new PrintWriter(bw);
 		
-		bw.write(a);
-		bw.newLine();
-
-		bw.write(b);
-		bw.newLine();
-
-		bw.write(c);
-		bw.newLine();
+	
 		
 		pw.println(a);
 		pw.println(b);
 		pw.println(c);
 		
-		
+	
 		pw.close();
 		bw.close();
+		fw.close();
 		
 	}
 }
